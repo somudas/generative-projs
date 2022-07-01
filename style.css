@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+.app-bar{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 51px;
+    padding: 10px;
+    width: auto;
+    left: 10%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav-bar{
+    
+    width: auto;
+    height: 51px;
+    display: grid;
+    position: absolute;
+    left: 50%;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr;
+    font-size: larger;
+}
+
+.home, .projects, .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #fff ;
+    border-width: 1px;
+}
+
+.home:hover{
+    background-color: #eee;
+    border-style: solid;
+    border-color: #444 ;
+    border-width: 1px;
+}
+.contact:hover{
+    background-color: #eee;
+    border-style: solid;
+    border-color: #444 ;
+    border-width: 1px;
+}
+.projects:hover{
+    background-color: #eee;
+    border-style: solid;
+    border-color: #444 ;
+    border-width: 1px;
+}
