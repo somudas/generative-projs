@@ -23,7 +23,7 @@ let inc = 1;
 function draw(){
     
     background(255);
-    sketch2();
+    sketch1();
     
     da+=0.01;
 }
